@@ -16,17 +16,25 @@
  font-family:"Pretendard","Malgun Gothic",sans-serif;
 }
 
+html,
 body{
  margin:0;
+ padding:0;
+ width:100%;
+}
+
+body{
  background:#eef8fb;
  color:#333;
  line-height:1.6;
 }
 
 .container{
+ width:100%;
  max-width:480px;
- margin:auto;
+ margin:0 auto;
  background:#fff;
+ overflow:hidden;
 }
 
 .hero{
@@ -64,6 +72,7 @@ body{
 }
 
 .section{
+ width:100%;
  padding:22px 18px;
 }
 
@@ -75,6 +84,7 @@ body{
 }
 
 .card{
+ width:100%;
  background:white;
  border-radius:20px;
  padding:20px;
@@ -153,7 +163,7 @@ FAMILY TRIP
 
 <p>
 유주네 가족의 태국여행<br>
-방콕의 밤부터 푸켓의 바다까지
+방콕의 밤부터 푸켓의 석양까지
 </p>
 
 <p>
@@ -174,57 +184,35 @@ FAMILY TRIP
 <div class="grid">
 
 <div class="smallcard">
-
 <div class="icon">✈️</div>
-
 <b>항공</b>
-
 <br>
-
 인천 → 방콕<br>
 방콕 → 푸켓<br>
 푸켓 → 인천
-
 </div>
 
 <div class="smallcard">
-
 <div class="icon">🏨</div>
-
 <b>숙소</b>
-
 <br>
-
 방콕 3박<br>
 푸켓 5박
-
 </div>
 
 <div class="smallcard">
-
 <div class="icon">🌊</div>
-
 <b>핵심 일정</b>
-
 <br>
-
 피피섬<br>
 안다만다
-
 </div>
 
 <div class="smallcard">
-
 <div class="icon">💰</div>
-
 <b>여행 예산</b>
-
 <br>
-
-<span class="price">
-약 610~650만원
-</span>
-
+<span class="price">610~650만원</span>
 </div>
 
 </div>
@@ -280,8 +268,7 @@ Metadee Concept Hotel · Kata Beach
 
 <div class="info">
 👧 아동 동반 예정<br>
-성인 2인으로 예약했으며<br>
-11세 미만 자녀 동반 예정임을 호텔에 안내
+성인 2인 예약 · 11세 미만 자녀 동반 예정
 </div>
 
 </div>
@@ -303,11 +290,8 @@ Metadee Concept Hotel · Kata Beach
 </b>
 
 <br>
-
 타이항공
-
 <br>
-
 09:35 → 13:25
 
 <br><br>
@@ -317,11 +301,8 @@ Metadee Concept Hotel · Kata Beach
 </b>
 
 <br>
-
 타이항공
-
 <br>
-
 10:50 → 12:20
 
 <br><br>
@@ -331,17 +312,14 @@ Metadee Concept Hotel · Kata Beach
 </b>
 
 <br>
-
 아시아나
-
 <br>
-
 23:00 → 07:10
 
 <br><br>
 
 <div class="highlight">
-항공 총액 247만원 (82만/인당)
+항공 총액 247만원 (82만/1인)
 </div>
 
 </div>
@@ -358,59 +336,31 @@ Metadee Concept Hotel · Kata Beach
 
 <div class="card">
 
-✈️ 항공권
-
-<b>
-약 255만원
-</b>
+✈️ 항공권 <b>약 247만원</b>
 
 <br><br>
 
-🏨 호텔
-
-<b>
-약 146만원
-</b>
+🏨 호텔 <b>약 146만원</b>
 
 <br><br>
 
-🍜 식비
-
-<b>
-약 90만원
-</b>
+🍜 식비 <b>약 90만원</b>
 
 <br><br>
 
-🚕 교통
-
-<b>
-약 20만원
-</b>
+🚕 교통 <b>약 20만원</b>
 
 <br><br>
 
-🏝 피피섬 투어
-
-<b>
-약 45만원
-</b>
+🏝 피피섬 투어 <b>약 45만원</b>
 
 <br><br>
 
-🎢 안다만다 워터파크
-
-<b>
-약 12만원
-</b>
+🎢 안다만다 워터파크 <b>약 12만원</b>
 
 <br><br>
 
-💆 마사지 / 기타
-
-<b>
-약 30만원
-</b>
+💆 마사지 / 기타 <b>약 30만원</b>
 
 <hr>
 
@@ -427,7 +377,7 @@ Metadee Concept Hotel · Kata Beach
 
 </div>
 
-<!-- BANGKOK -->
+<!-- BANGKOK DAYS -->
 
 <div class="section">
 
@@ -451,7 +401,7 @@ Metadee Concept Hotel · Kata Beach
 
 <br><br>
 
-🚕 수완나품 공항 이동
+🚕 수완나품 공항 픽업
 
 <br>
 → 칼튼 호텔 이동
@@ -473,9 +423,7 @@ Metadee Concept Hotel · Kata Beach
 <div class="info">
 
 🚕 이동 추천<br>
-
 공항 픽업 예약 완료<br>
-
 약 23,000원 / 약 46분 / 29km
 
 </div>
@@ -525,7 +473,6 @@ Metadee Concept Hotel · Kata Beach
 <div class="info">
 
 🚕 이동 추천<br>
-
 Grab + 수상보트 조합
 
 </div>
@@ -566,8 +513,6 @@ Grab + 수상보트 조합
 
 <div class="info">
 
-추천 분위기<br>
-
 쇼핑 + 휴식 + 야경 중심
 
 </div>
@@ -576,7 +521,7 @@ Grab + 수상보트 조합
 
 </div>
 
-<!-- PHUKET -->
+<!-- PHUKET DAYS -->
 
 <div class="section">
 
@@ -626,14 +571,9 @@ Grab + 수상보트 조합
 
 <div class="info">
 
-🚕 공항 → 메타디<br>
-
-약 44km / 약 50분 예상
-
-<br><br>
-
-푸켓 공항 도착 후<br>
-Grab 또는 예약 차량 이용
+🚕 이동 추천<br>
+공항 픽업 예약 완료<br>
+약 27,000원 / 약 50분 / 44km
 
 </div>
 
@@ -655,7 +595,7 @@ Grab 또는 예약 차량 이용
 
 <br><br>
 
-🏊 Metadee Concept Hotel 수영장
+🏊 메타디 컨셉호텔 수영장
 
 <br>
 
@@ -677,11 +617,7 @@ Grab 또는 예약 차량 이용
 
 <div class="info">
 
-🌴 휴식 중심 일정
-
-<br>
-
-호텔 + 카타비치를 여유롭게 즐기는 날
+🌴 호텔과 카타비치를 여유롭게 즐기는 휴식 중심 일정
 
 </div>
 
@@ -838,21 +774,14 @@ Grab 또는 예약 차량 이용
 
 <div class="info">
 
-🚕 메타디 → 안다만다
-
-<br>
-
+🚕 메타디 → 안다만다<br>
 Grab 약 30분 예상
 
 </div>
 
 </div>
 
-</div>
-
 <!-- DAY 9 -->
-
-<div class="section">
 
 <div class="card">
 
@@ -916,8 +845,9 @@ Grab 약 30분 예상
 <br><br>
 
 🚕 공항 이동 추천<br>
-
 19:30~20:00 출발
+
+</div>
 
 </div>
 
@@ -936,11 +866,9 @@ Grab 약 30분 예상
 🌴 <b>휴양</b>
 
 <br>
-
 Metadee Concept Hotel · Kata Beach
 
 <br>
-
 호텔 수영장과 카타비치를 즐기는 시간
 
 <br><br>
@@ -948,11 +876,9 @@ Metadee Concept Hotel · Kata Beach
 🏯 <b>문화</b>
 
 <br>
-
 방콕 왕궁
 
 <br>
-
 왓포 · 왓아룬
 
 <br><br>
@@ -960,11 +886,9 @@ Metadee Concept Hotel · Kata Beach
 🌊 <b>액티비티</b>
 
 <br>
-
 피피섬 투어
 
 <br>
-
 안다만다 워터파크
 
 <br><br>
@@ -972,15 +896,12 @@ Metadee Concept Hotel · Kata Beach
 🌃 <b>현지 분위기</b>
 
 <br>
-
 방콕 야경
 
 <br>
-
 카타 로컬 분위기
 
 <br>
-
 빠통 야시장
 
 <br><br>
@@ -988,11 +909,9 @@ Metadee Concept Hotel · Kata Beach
 👨‍👩‍👧 <b>가족 여행</b>
 
 <br>
-
 무리한 일정은 줄이고
 
 <br>
-
 휴양과 관광을 적절하게 조합
 
 </div>
@@ -1012,47 +931,36 @@ Metadee Concept Hotel · Kata Beach
 ✅ 여권 확인
 
 <br>
-
 ✅ 태국 TDAC 전자입국신고
 
 <br>
-
 ✅ 항공권 저장
 
 <br>
-
 ✅ 호텔 바우처 저장
 
 <br>
-
 ✅ Grab 앱 설치
 
 <br>
-
 ✅ 로밍 / eSIM 준비
 
 <br>
-
 ✅ 트래블카드 준비
 
 <br>
-
 ✅ 현금 준비
 
 <br>
-
 ✅ 수영복 / 방수팩
 
 <br>
-
 ✅ 선크림 / 모자
 
 <br>
-
 ✅ 아이 상비약
 
 <br>
-
 ✅ 호텔 아동 동반 안내
 
 </div>
@@ -1096,9 +1004,7 @@ THAILAND 🇹🇭
 </p>
 
 <p>
-
 2026.10.02 - 10.10
-
 </p>
 
 </div>
